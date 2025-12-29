@@ -1,0 +1,153 @@
+/* HERO SECTION */
+section .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 10px gray;
+  margin-top: 40px;
+}
+
+.hero .name {
+  color: #162660;
+}
+
+.name p:nth-child(2) {
+  font-size: 2.5rem;
+}
+
+.name h1 {
+  font-size: 3.5rem;
+  line-height: 0.7;
+}
+
+.name span {
+  font-weight: lighter;
+  font-size: small;
+}
+
+.name .tagline {
+  line-height: 2;
+  color: #01071f;
+  font-weight: bold;
+}
+
+/* IMAGE DESIGN */
+.img_bg_design {
+  background: #162660;
+  padding: 140px;
+  border-radius: 0 50% 0;
+  position: relative;
+}
+
+.img_bg_design img {
+  width: 130px;
+  height: 180px;
+  border-radius: 50px;
+  border: 3px solid rgb(201, 198, 198);
+  border-bottom: 8px dashed green;
+  position: absolute;
+  right: 20px;
+}
+
+/* MAIN LAYOUT */
+main {
+  display: flex;
+}
+
+main section:nth-child(1) {
+  max-width: 35%;
+  padding: 30px;
+  background: #162660;
+  color: rgb(196, 196, 196);
+  border-radius: 70px 70px 0 0;
+  box-shadow: 0px 0px 30px gray;
+}
+
+main section:nth-child(2) {
+  flex: 1;
+}
+
+/* ABOUT */
+.about h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1.7px;
+  margin: 15px 0;
+  color: whitesmoke;
+}
+
+/* SKILLS */
+.skills ul li {
+  margin: 0 0 8px 20px;
+}
+
+/* RIGHT SIDE CONTENT */
+.backgroundNeducation {
+  padding: 15% 0 0 10%;
+}
+
+.background {
+  border: 2px solid #cec0ff;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  padding-left: 10px;
+  color: #162660;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.experience_content {
+  margin-top: 10px;
+  padding-left: 20px;
+  /* color: #162660; */
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+}
+
+.experience_content p {
+  color: rgb(196, 196, 196);
+}
+
+/* .experience_content h5 {
+  color: rgb(41, 41, 41);
+} */
+
+.experience_content .date {
+  float: right;
+}
+
+/* PROJECT */
+.project {
+  margin-top: 15px;
+  padding-right: 50px;
+}
+
+.project h4 {
+  color: #162660;
+}
+
+.project p, .professional_brackground {
+  color: rgb(41, 41, 41);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #162660;
+  color: white;
+}
+
+.footer a {
+  color: #cfcfff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.project_link {
+  font-weight: bold;
+  margin-top: 10px;
+}

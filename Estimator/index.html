@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Css/estimator.css">
+
+    <title>Material Estimator</title>
+</head>
+<body>
+    <div class="estimator">
+
+  <h4>Material Estimator</h4>
+
+  <div class="field">
+    <label for="length">Length (mm)</label>
+    <input type="number" id="length" placeholder="Enter length in mm">
+  </div>
+
+  <!-- <div class="field">
+    <label for="width">Width (m)</label>
+    <input type="number" id="width" placeholder="Enter width">
+  </div> -->
+
+  <div class="field">
+    <label for="height">Height (mm)</label>
+    <input type="number" id="height" placeholder="Enter height in mm">
+  </div>
+
+  <button id="calculateBtn" onclick="calculateWallArea()">Calculate</button>
+
+  <p><strong>Wall Area:</strong>
+    <span id="areaMM">-</span> mm² /
+    <span id="areaM">-</span> m²
+  </p>
+
+
+  <div id="result">
+    <p><strong>Blocks:</strong> <span id="blocks">-</span></p>
+    <p><strong>Cement Bags:</strong> <span id="cement">-</span></p>
+    <p><strong>Sand (tons):</strong> <span id="sand">-</span></p>
+  </div>
+
+  <div class="assumptions">
+  <p>
+    <em>
+      Estimates are based on standard block sizes and typical site practice.
+      Quantities are indicative and rounded for practical material purchase.
+    </em>
+  </p>
+</div>
+
+
+</div>
+
+
+
+<script src="./Javascript/estimator.js"></script>
+</body>
+</html>
