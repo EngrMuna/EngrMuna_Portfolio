@@ -1,0 +1,59 @@
+/* =========================
+   MOBILE RESPONSIVENESS
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Nav links */
+    .links ul li:last-child {
+        display: none;
+    }
+
+  /* Hero section */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .img_bg_design {
+    padding: 60px;
+    margin-top: 20px;
+  }
+
+  .img_bg_design img {
+    position: static;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Main layout */
+  main {
+    flex-direction: column;
+  }
+
+  main section:nth-child(1),
+  main section:nth-child(2) {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  /* About + contact */
+  .about_container {
+    display: block;
+  }
+
+  /* Background / experience spacing */
+  .backgroundNeducation {
+    padding: 40px 20px;
+  }
+
+  /* Text scaling */
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .name p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+}
