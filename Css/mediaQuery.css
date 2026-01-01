@@ -5,7 +5,7 @@
 @media (max-width: 768px) {
 
     /* Nav links */
-    .links ul li:last-child {
+   .links ul li:last-child {
         display: none;
     }
 

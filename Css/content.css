@@ -129,6 +129,19 @@ main section:nth-child(2) {
   color: rgb(41, 41, 41);
 }
 
+.tech_stack {
+  margin-top: 6px;
+}
+
+.project_link {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project_link a {
+  text-decoration: none;
+}
+
 /* FOOTER */
 .footer {
   margin-top: 40px;
@@ -145,9 +158,4 @@ main section:nth-child(2) {
 
 .footer a:hover {
   text-decoration: underline;
-}
-
-.project_link {
-  font-weight: bold;
-  margin-top: 10px;
 }

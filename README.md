@@ -1,39 +1,45 @@
-# Construction Material Estimator
+# EngrMuna Portfolio
 
-A simple web-based estimator for calculating wall construction materials
-based on wall dimensions.
+This repository contains my personal portfolio website.
 
-## Purpose
-This tool helps estimate blockwork materials quickly during early planning
-and site preparation stages. It is intended for preliminary estimation,
-not final procurement quantities.
+The portfolio presents my background as a Civil Engineer transitioning
+into software development and showcases selected projects built using
+HTML, CSS, and JavaScript.
 
-## Inputs
-- Wall Length (mm)
-- Wall Height (mm)
-- Wall Thickness (100mm / 150mm)
+## Live Site
+https://engrmuna.github.io/EngrMuna_Portfolio/
 
-## Outputs
-- Wall Area (m²)
-- Number of Blocks
-- Cement Required (bags)
-- Sand Quantity (tonnes)
+## About Me
+I am a Civil Engineer with hands-on experience in construction and site
+operations, currently transitioning into Frontend and Full-Stack
+development.
 
-## Assumptions
-- Standard concrete blocks (approx. 10 blocks per m²)
-- 1 bag of cement lays approximately 30 blocks
-- Sand usage estimated at 0.02 tonnes per m²
-- Cement quantities are rounded up to whole bags for purchase practicality
+I enjoy building practical tools that apply real-world logic and
+engineering problem-solving to software development.
+
+## Featured Projects
+
+### Construction Material Estimator
+A web-based estimator that calculates approximate quantities of blocks,
+cement, and sand based on wall dimensions.
+
+The estimator applies standard construction assumptions and demonstrates
+my ability to convert engineering knowledge into working JavaScript logic.
+
+🔗 Live demo available via the portfolio website.
+
+---
+
+### Rock Paper Scissors Game
+A JavaScript-based game built to strengthen my understanding of logic,
+conditionals, and user interaction.
+
+🔗 https://engrmuna.github.io/Rock-Paper-Scissors-Game/
 
 ## Tech Stack
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript
 
-## Background
-This project combines construction engineering principles with frontend
-development as part of a transition into software engineering.
-
-## Disclaimer
-Results are indicative estimates only and should not replace professional
-quantity surveying or structural design calculations.
+## Contact
+GitHub: https://github.com/EngrMuna

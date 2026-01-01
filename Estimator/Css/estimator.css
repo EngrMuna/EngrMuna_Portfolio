@@ -66,3 +66,9 @@ button:hover {
   color: #555;
   margin-top: 15px;
 }
+
+.project_notes {
+  text-align: center;
+  /* background: gray; */
+  font-size: small;
+}
