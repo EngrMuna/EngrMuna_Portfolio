@@ -103,23 +103,37 @@ main section:nth-child(2) {
   font-size: 15px;
 }
 
-.experience_content p {
+.about .experience_content p {
   color: rgb(196, 196, 196);
 }
-
-/* .experience_content h5 {
-  color: rgb(41, 41, 41);
-} */
 
 .experience_content .date {
   float: right;
 }
 
 /* PROJECT */
+.projects_wrapper {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 8px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.projects_wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.projects_wrapper::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
 .project {
   margin: 15px 5px 0;
   padding: 10px 0px 10px 20px;
   box-shadow: 0 0 5px 2px rgb(204, 204, 204);
+  border-radius: 20px 0;
 }
 
 .project h4 {
