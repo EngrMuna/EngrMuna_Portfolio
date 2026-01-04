@@ -69,6 +69,12 @@ button:hover {
 
 .project_notes {
   text-align: center;
-  /* background: gray; */
+  background: linear-gradient(
+  120deg,#fdfcff,#e8f1ff,#f5fbff);
+  color: rgb(131, 0, 0);
   font-size: small;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3px 8px;
+  border-radius: 6px;
 }

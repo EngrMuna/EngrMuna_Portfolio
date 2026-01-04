@@ -11,7 +11,7 @@ function calculateWallArea() {
   const heightM = heightMM / 1000;
 
   const areaM2 = lengthM * heightM;
-  const areaMM2 = lengthMM * heightMM;
+  //const areaMM2 = lengthMM * heightMM;
 
   const BLOCKS_PER_M2 = 10;
   const BLOCKS_PER_CEMENT_BAG = 30;
@@ -30,6 +30,6 @@ function calculateWallArea() {
   cementExact.toFixed(2) + " bags (buy " + cementBags + ")";
   document.getElementById("sand").textContent = sand;
 
-  document.getElementById("areaMM").textContent = areaMM2;
+  // document.getElementById("areaMM").textContent = areaMM2;
   document.getElementById("areaM").textContent = areaM2.toFixed(2);
 }
